@@ -1,0 +1,21 @@
+{
+  "name": "rate-limit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ioredis": "^4.0.10",
+    "await-first": "^1.0.0",
+    "bluebird": "^3.7.2",
+    "ioredis": "^4.9.0",
+    "lodash": "^4.17.21",
+    "lru-cache": "^6.0.0",
+    "rate-limiter-flexible": "^2.3.6",
+    "uuid": "^9.0.0"
+  }
+}
